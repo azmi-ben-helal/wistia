@@ -1,0 +1,396 @@
+
+body{
+padding:0;
+margin: 0;
+font-family: "Walsheim", sans-serif;
+
+}
+
+.menu{
+display:flex;
+padding:0;
+margin:0;
+justify-content: space-between;
+font-family: "Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+
+}
+
+.signup{
+    height: 120px;
+    width: 200px; 
+    padding: 20px;
+    margin: 0px;
+    color: #3ea9f5;
+    font-size: 16px; 
+    background-color: white;
+    border:0.05px solid grey;
+  }
+  .signup:hover{
+    color: grey;
+   background:#9CA8B7;
+   transition:all 0.5s ease-in-out;
+
+  }
+                     
+.login{
+  height: 120px;
+  width: 200px; 
+  padding:20px;
+  margin: 0;
+  font-size: 16px;
+  background-color: white;
+  border:0.05px solid grey;
+  cursor: pointer;
+       
+ }
+  .login:hover{
+    color: grey;
+   background:#9CA8B7;
+   transition:all 0.5s ease-in-out;}
+
+
+ .button{
+  display: flex;
+
+  
+ }
+
+.image_wistia{  
+
+    height: 100px;
+    width: 250px;   
+}
+
+.nav_barre{
+ display: flex;
+ flex-direction: column;
+
+}
+
+.list1{
+   display: flex;
+   margin:0;
+   padding:8px;
+ 
+}
+ 
+.list1 li 
+{
+   display:inline;
+   padding:5px;
+   margin:0;
+}
+
+.list1 a:link, .list1 a:visited 
+{
+   color:#363945;
+   background:white;
+   padding:20px;
+  text-decoration:none;
+   font-size:16px;
+
+}
+   .list1 a:hover 
+{
+   color: grey;
+   background:#9CA8B7;
+   transition:all 0.5s ease-in-out;
+  
+}         
+ .list2{
+   display: flex;
+   margin:0;
+   padding:0px;
+   
+  
+}
+ .list2 li 
+{
+   display:inline;
+   padding:5px;
+   margin:0;
+}
+.list2 a:link, .list2 a:visited 
+{
+  color:#363945;
+  background:white;
+  padding:20px;
+  float:left;
+  text-decoration:none;
+   font-size: 16px;
+}
+ 
+   .list2 a:hover 
+{
+   color:grey;
+   background:#9CA8B7;
+   transition:all 0.5s ease-in-out;
+  
+}        
+
+ .wistia_video{
+
+background-image: url(img/wistia1.jpg);
+width: 100%;
+height: 100vh;
+
+ }
+
+ .title_wistia_video{
+     padding: 130px;
+     margin: 0;
+ }
+
+ .text1 {
+    text-align: left;
+    font-size: 2.6em;
+    font-family: "Walsheim", sans-serif;
+    color:#363945;
+
+ }
+
+ .video{
+  position: relative;
+    height: 70px;
+    width: 200px;
+ l  left:150px;
+    transition-duration: 0.4s;
+    font-family: "Walsheim", sans-serif;
+    font-size: 20px; 
+    border-radius: 8px;
+
+ }
+ .video:hover {
+    background-color: grey; 
+    color: white;
+}
+
+ 
+ .logo1 {
+  width:50px;
+  height:50px;
+
+
+ }
+
+ .logo2{
+  width:50px;
+  height:50px;
+
+
+ }
+
+ .logo3{
+  width:50px;
+  height:50px;
+
+ }
+
+.section1_video_skills{
+  display:flex;
+  width:auto;
+  height:auto;
+  padding:0px;
+  margin: 0px;
+  align-content: stretch;
+ font-size: 16px;
+ }
+
+.wistia_hosting{
+
+
+background-color: #FED24A;
+padding: 40px 58px 50px;
+margin: 0;
+flex-direction: column;
+font-family: "Walsheim", sans-serif;
+flex: 1 1 300px;
+
+}
+
+.wistia_hosting_button{
+padding: 20px;
+border-color: rgba(255,255,255,0.55);
+border-radius: 5px;
+background-color:#FED24A; 
+margin: 30px;
+width: 50%;
+font-family: "Walsheim", sans-serif;
+color: #363945;
+font-size: 16px;
+
+}
+
+
+.soapbox{
+
+background-color: #51C29F;
+padding: 40px 58px 50px;
+margin: 0;
+flex-direction: column;
+font-family: "Walsheim", sans-serif;
+flex: 1 1 300px;
+
+}
+.soapbox_button{
+padding: 20px;
+border-color: rgba(255,255,255,0.55);
+border-radius: 5px;
+background-color:#51C29F; 
+margin: 30px;
+width: 50%;
+font-family: "Walsheim", sans-serif;
+color: #363945;
+font-size: 16px;
+
+}
+
+.grow_your_video{
+
+background-color: #3EA9F5;
+padding: 40px 58px 50px;
+margin:0;
+flex-direction: column;
+font-family: "Walsheim", sans-serif;
+flex: 1 1 300px;
+
+}
+
+
+.grow_your_video_button{
+padding: 20px;
+border-color: rgba(255,255,255,0.55);
+border-radius: 5px;
+background-color:#3EA9F5; 
+margin: 30px;
+width: 50%;
+font-family: "Walsheim", sans-serif;
+color: #363945;
+font-size: 16px;
+
+}
+
+.text_0{
+
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    width: 100%; 
+    font-family: "Walsheim", sans-serif;
+    color: #363945;
+}
+
+ .wistia_brand{
+
+  display:flex;
+  width:auto;
+  height:auto;
+  padding:70px;
+  margin-top: 30px;
+  justify-content: space-between;
+
+ }
+
+ .wistia_is_proud{
+
+    max-width: 160px;
+    padding: 0 30px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #9CA8B7;
+ }
+
+
+
+
+ .homepage-featured-blocks{
+
+display:flex;
+width:auto;
+height:auto;
+padding:40px;
+margin-left: 150px;
+margin-right: 150px;
+justify-content: space-between;
+font-family: "Walsheim", sans-serif;
+color: #363945;
+line-height: 28px;
+margin-bottom: 30px;
+ }
+
+
+ .section4{
+ 
+    color: #777777;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    background-color: #e8e7e6;
+ }
+
+
+
+ .footer_container{
+
+ background: #2A2D35;
+ display:flex;
+ width:auto;
+ height:auto;
+ padding:20px;
+ justify-content: space-around;
+ text-decoration:none;
+ list-style-type: none;
+ }
+
+.Follow_us{
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.3em;
+  width: 50%;
+  margin-left:50px;
+  margin-top: 20px;
+  list-style-type: none;
+    
+   
+
+}
+.product_container ul{
+  list-style-type: none;
+  line-height: 25px;
+  margin-right: 60px;
+}
+.company_container ul{
+  list-style-type: none;
+  line-height: 25px;
+  margin-right: 60px;
+}
+.learn_container ul{
+  list-style-type: none;
+  line-height: 25px;
+  margin-right: 60px;
+}
+.support_container ul{
+  list-style-type: none;
+  line-height: 25px;
+  margin-right: 60px;
+
+}
+
+
+ 
+ .bottom_page{
+
+  display: flex;
+  justify-content: center;
+  background: #2A2D35;
+ 
+
+
+ }
+
+ .heading_footer{
+      color: #b2b9c1;
+     text-decoration:none;
+ }
+
+
